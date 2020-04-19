@@ -110,7 +110,7 @@ namespace Quack_
 
                         Logging.Write(Colors.AliceBlue, "[Quack!] 关闭游戏进程.");
 
-                        Process[] ffxiv = Process.GetProcessesByName("ffxiv");
+                        Process[] ffxiv = Process.GetProcessesByName("ffxiv_dx11");
 
                         foreach (Process p in ffxiv)
                             p.Kill();
